@@ -1,0 +1,10 @@
+.slider-section {
+    .swiper-slide {
+        min-height: 300px;
+        background-color: red;
+
+        &.swiper-slide-next{
+            max-width: 200px !important;
+        }
+    }
+}

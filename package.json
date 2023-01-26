@@ -18,7 +18,9 @@
     "url": "https://github.com/Tigriceo/parcel-75-template/issues"
   },
   "dependencies": {
+    "imask": "^6.4.3",
     "modern-normalize": "^1.1.0",
+    "nice-select2": "^2.1.0",
     "swiper": "^8.4.6"
   },
   "devDependencies": {
