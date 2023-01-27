@@ -1,8 +1,13 @@
 .header{
+    padding: 10px 0;
     background-color: red;
 }
 .nav-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
     &__link{
-        color: blue;
+        color: #fff;
     }
 }

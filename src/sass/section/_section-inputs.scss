@@ -1,0 +1,27 @@
+.inputs {
+    &__block {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+    &-wrap{
+        input{
+            flex-basis: calc((100% - 40px)/3);
+        }
+    }
+
+
+
+    //стилізуємо селект
+    .nice-select{
+        min-width: 300px;
+        &-dropdown{
+            width: 100%;
+        }
+    }
+}
+// приховуємо тег селекту
+select.js-select{
+    @extend .visually-hidden;
+}

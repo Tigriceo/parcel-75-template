@@ -1,10 +1,19 @@
 .slider-section {
     .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         min-height: 300px;
+        color: #fff;
+        font-size: 32px;
         background-color: red;
+        transition: ease-in-out 0.5s;
 
-        &.swiper-slide-next{
-            max-width: 200px !important;
+        &.swiper-slide-next {
+            // краще виставляти у %
+            // зараз 17.3%  дорівнює 200px
+            //width: 200px !important;
+            width: 17.3% !important;
         }
     }
 }
