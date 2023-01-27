@@ -11,7 +11,7 @@ function swiperSlider() {
             let pagination = slider.querySelector('.swiper-pagination');
             //коментуємо чи видаляемо якщо не потрібно
 
-            swiper = new Swiper(slider.querySelector('.swiper'), {
+            let swiper = new Swiper(slider.querySelector('.swiper'), {
                 speed: 1500,
                 // автоплей
                 //centeredSlides: true,
