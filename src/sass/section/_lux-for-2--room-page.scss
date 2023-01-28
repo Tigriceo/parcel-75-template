@@ -1,0 +1,32 @@
+.room-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  @media screen and (min-width: 414px) {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  @media screen and (min-width: 1024px) {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+.amenities__title {
+  margin-bottom: 16px;
+
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: calc(37 / 32);
+
+  color: #000000;
+}
+.amenities__text {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+
+  color: #7a7a7a;
+}
